@@ -23,7 +23,11 @@ Advantages:
 - Found installation command within documentation 
   - `npm install @mui/material @emotion/react @emotion/styled`
   - `npm install @fontsource/roboto`
-  - `npm install @mui/icons-material` [Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons)
+  - `npm install @mui/icons-material` 
+  
+## Material icons  
+  [Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons)
+  [Importing material icons](https://mui.com/material-ui/material-icons/)
 
 ## Usage
 
