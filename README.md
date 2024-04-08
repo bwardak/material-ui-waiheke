@@ -17,6 +17,11 @@ Advantages:
 - Allows for easy colloboration between developers, whether back-end or front-end.
 - Reliable and long history, lots of community support.
 
+
+Disadvantages:
+
+- Autocomplete
+
 ## Setup
 
 - Created vite project in react/typescript. npm create vite@latest
@@ -39,3 +44,30 @@ Advantages:
     return <Button variant="contained">Hello world</Button>;
   }
 ```
+
+## Findings
+
+- Massively increased production time
+  - Component markup done
+  - Components styled
+  - Positioning of layouts predefined
+    - Good spacing within a component
+  
+- Heavy customisation
+  - Most components already have multiple variants/colors e.g greyed out text, disabled buttons
+
+
+## Problems
+
+- Learning curve when new
+  - Lots of documentation to understand
+  - Different methods of styling than what were used to e.g changing colors
+  - Knowing how to use required props
+  - Data types
+
+
+## Solutions
+
+- Documentation goes into depth
+  - Great examples of code and visual
+- Lots of community notes online

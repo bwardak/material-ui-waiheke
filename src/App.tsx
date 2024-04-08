@@ -18,6 +18,7 @@ function App() {
         email: "",
         message: "",
     });
+    
 
     const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
@@ -32,6 +33,8 @@ function App() {
         e.preventDefault();
         console.log(formInputs);
     };
+    
+  
 
     return (
         <Form
