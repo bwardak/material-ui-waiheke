@@ -1,0 +1,37 @@
+# Material UI
+
+## What is MUI?
+
+- [MUI documentation](https://mui.com/material-ui/getting-started/)
+
+- Open source react component library.
+- Allows you to implement Googles Material Design.
+- Comprehensive collection of prebuilt components.
+- Mobile first
+
+Advantages:
+
+- Open source so many contributors have added components. Reduce production time with pre-existing UI components.
+- Material UI component meets the highest standards of form and function, while allowing for manual customisation.
+- All components are highly customizable.
+- Allows for easy colloboration between developers, whether back-end or front-end.
+- Reliable and long history, lots of community support.
+
+## Setup
+
+- Created vite project in react/typescript. npm create vite@latest
+- Found installation command within documentation 
+  - `npm install @mui/material @emotion/react @emotion/styled`
+  - `npm install @fontsource/roboto`
+  - `npm install @mui/icons-material` [Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons)
+
+## Usage
+
+```
+  import * as React from 'react';
+  import Button from '@mui/material/Button';
+
+  export default function ButtonUsage() {
+    return <Button variant="contained">Hello world</Button>;
+  }
+```
