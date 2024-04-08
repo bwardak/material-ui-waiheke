@@ -56,6 +56,12 @@ Disadvantages:
 - Heavy customisation
   - Most components already have multiple variants/colors e.g greyed out text, disabled buttons
 
+- No need for testing Material UI components as they're already functional
+
+- Allows easier scaling from mobile to desktop as its mobile first
+
+- Less code with imported components
+
 
 ## Problems
 
